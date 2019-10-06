@@ -1,0 +1,12 @@
+runtime: java
+env: flex
+service: backend
+runtime_config:
+  jdk: openjdk8
+beta_settings:
+  cloud_sql_instances: sept-254609:australia-southeast1:septdb=tcp:3306
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+
+ 
